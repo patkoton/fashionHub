@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"crossorigin="anonymous">
+</head>
+<body>
+   <!-- NAVBAR STARTS -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-4">
+
+    <a class="navbar-brand dark boot h1" href=""><h3><span style="color: #15A9A9; font-size: 70px; font-family: 'Times New Roman', Times, serif;">F</span>ashion <span style="color: #15A9A9; font-size: 70px; font-family: 'Times New Roman', Times, serif;">H</span>ub</h3></a>
+    <button 
+          class="navbar-toggler" 
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+     >
+         <span class="navbar-toggler-icon"></span>
+     </button>       
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link nv" href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nv"
+                href="#"
+                   data-bs-toggle="dropdown"
+                   role="button" 
+                   aria-expanded="false">Categories
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="clothings.html">Clothings</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="shoes.html">Shoes</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="bags.html">Bags</a></li>
+                </ul>
+            </li>
+            <li class="nav-item btn rounded buyn"><a class="nav-link buyn" style="color: white; background-color: #15A9A9" href="register.html">Register here</a></li>
+        </ul>
+        <form class="d-flex">
+            <input
+            class="form-control me-2 fas" 
+            type="search" 
+            placeholder="Search out store"
+            aria-label="Search">
+            <i class="fas fa-search search-icon fash"></i>
+            <button class="btn btn-outline-secondary btnlogin" 
+               type="submit">
+                Search
+            </button>
+            </form>
+     </div>
+
+    </div>
+</nav>
+<!-- NAVBAR ENDS -->
+
+<!-- LOGIN STARTS -->
+<section>
+    <div class="row ms-auto" style="margin-top: 20px;">
+
+        <div class="col-4"></div>
+        
+        <div class="col-4">
+            <form action="">
+                <div class="" style="border-style: solid; width: 100px; height: 40px; margin-top: 50px; margin-bottom: 30px; margin-left: 170px; border-color:#15A9A9; border-top: 0px; border-right: 0px; border-left: 0px;">
+                    <h6 style="text-align: center; line-height: 40px;"><b>Login</b></h6>
+                </div>
+                <div>
+                    <label for="validationCustom02" class="form-label"
+                    style="padding-top: 10px;">Email address</label>
+                    <input type="email" class="form-control" id="validationCustom02" value="" required
+                    style="border-left: none; border-right: none; border-top: none;">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div><br>
+            
+                <div>
+                    <label for="validationCustom02" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="validationCustom02" value="" required
+                    style="border-left: none; border-right: none; border-top: none;">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div><br>
+            
+                <div>
+                    <button class="btn btn formbtn" type="submit">Submit</button>
+                </div><br>
+                <p class="aam">Not a member? &nbsp;<a class="aam" href="register.html" style="text-decoration: none;">Register Now</a></p>
+            </form>
+        </div>
+
+        <div class="col-4"></div>
+    </div>
+</section>
+<!-- LOGIN ENDS -->
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/2a40a5847c.js" crossorigin="anonymous"></script> 
+</body>
+</html>
